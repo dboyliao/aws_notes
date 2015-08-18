@@ -25,8 +25,7 @@
 - Instance in a public subnet to communicate with the Internet if it has a public IP address or an Elastic IP address.
   - The Elastic IP address or public IP address that's associated with your instance is accessed through the Internet gateway of your VPC.
 - Subnet doesn't have a route to the Internet gateway, the subnet is known as a private subnet.
-- Subnet doesn't have a route to the Internet gateway, but has its traffic routed to a virtual private gateway, the subnet is known as a VPN-only subnet.
-- 
+- Subnet doesn't have a route to the Internet gateway, but has its traffic routed to a virtual private gateway, the subnet is known as a VPN-only subnet. 
 
 ## Security
 
